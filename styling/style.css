@@ -1,0 +1,147 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: red;
+    color: green;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px yellow solid;
+    border-radius: 25px;
+    margin: 10px;
+}
+section h2 {
+    background-color: black;
+    color: red;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px yellow solid;
+    border-radius: 25px;
+    margin: 10px;
+}
+section h3 {
+    color: yellowgreen;
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px yellow solid;
+    border-radius: 25px;
+    margin: 10px;
+}
+section h4 {
+    color: orange;
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px yellow solid;
+    border-radius: 25px;
+    margin: 10px;
+}
+section ul {
+    color: teal;
+    background-color: black;
+    margin-top: 10px;
+    border: 3px yellow solid;
+    border-radius: 25px;
+    margin: 10px;
+}
+section p:nth-child(2) {
+    color: blue;
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px yellow solid;
+    border-radius: 25px;
+    margin: 10px;
+}
+section p:nth-child(3) {
+    color: green;
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px yellow solid;
+    border-radius: 25px;
+    margin: 10px;
+}
+.large-img {
+    display: none;
+    float: right;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    background-color: white;
+    width : 480px;
+  }
+  
+nav {
+    text-align: center;
+}
+  
+nav a {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px black dotted;
+    text-align: center;
+}
+nav a:link, nav a:visited, nav a:active {
+    color: white;
+    text-decoration: none;
+}
+  
+header p {
+    text-align: center;
+    font-size: 16px;
+}
+.small, .medium, .large {
+    display: none;
+}  
+@media (max-width: 576px) {
+    .small, .medium, .large {
+        display: none;
+    }
+    .tiny {
+        display: block;
+    }
+    body {
+        width: 300px;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .tiny, .medium, .large {
+        display: none;
+    }
+    .small {
+        display: block;
+    }
+    body{
+        background-color: yellow
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .small, .tiny, .large {
+        display: none;
+    }
+    .medium {
+        display: block;
+    }
+    body{
+        background-color: blue
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .tiny, .small, .medium {
+        display: none;
+    }
+    .large {
+        display: block;
+    }
+    body{
+        background-color: orange
+    }
+  }

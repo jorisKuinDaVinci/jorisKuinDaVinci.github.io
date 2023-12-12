@@ -1,0 +1,56 @@
+  body {
+    width: 95%;
+    margin: 0 auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+  section.projecten {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    flex-basis: 100px;
+    flex-grow: 2;
+    color: saddlebrown;
+    /* zorg dat dit een flexbox wordt en zorg dat de items worden gewrapt */
+  }
+
+  div.project {
+    /* bepaal: opvulling, relatieve breedte tov section.projecten, tekstuitlijning (centrum), minimale breedte */
+    flex-basis: 100px;
+    flex-grow: 2;
+    text-align: center;
+    color: saddlebrown;
+  }
+
+  p.logo {
+    /* bepaal: vaste hoogte */
+    flex-basis: 100px;
+    flex-grow: 2;
+    color: saddlebrown;
+  }
+
+  p.logo img {
+    /* bepaal: relatieve breedte van de afbeelding tov div.project */
+    float: right;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid white;
+    background-color: white;
+    width : 200px;
+  }
+
+  p.language {
+    /* bepaal: font-relatieve lettergrootte */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  p.title {
+    /* bepaal: font-relatieve lettergrootte, letterdikte*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  p.description{
+    /* bepaal: font-relatieve lettergrootte, tekstuitlijning links*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+  }
