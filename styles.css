@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.project {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 20px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007bff; /* Blauwe achtergrondkleur */
+    color: #fff; /* Witte tekstkleur */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+form button:hover {
+    background-color: #555;
+}
+
+/* wedstrijdteller kleur */
+
+.wedstrijdteller {
+    color: #fff;
+    background-color: #333;
+}
+
+p.language {
+    /* bepaal: font-relatieve lettergrootte */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mijn Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Over Mij</a></li>
+                <li><a href="#projects">Projecten</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>Over Mij</h2>
+        <p>Welkom op mijn portfolio-website. Ik ben Joris Kuin, een gepassioneerde Software Developer. Hier kunt u meer over mij lezen...</p>
+    </section>
+
+    <section id="projects">
+        <h2>Mijn Projecten</h2>
+        <div class="project">
+            <a class="wedstrijdteller"href="wedstrijdteller2.html">Wedstrijdteller</a>
+            <p>Een eenvoudige wedstrijdteller front-end app.</p>
+            <p class="language">Taal: JS</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Beschrijving van project 2. Nulla convallis libero et lorem vehicula, at lobortis odio posuere. Nam id dui sit amet quam egestas accumsan.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Neem gerust contact met mij op voor eventuele vragen, samenwerkingsmogelijkheden of gewoon om hallo te zeggen!</p>
+        <form id="contact-form">
+            <label for="name">Naam:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Bericht:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Verzenden</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Joris Kuin</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
